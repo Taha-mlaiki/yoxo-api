@@ -11,7 +11,7 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-  origin:"https://yoxo-community.onrender.com",
+  origin:"https://yoxoevents.onrender.com",
   credentials:true
 }
 app.use(cors(corsOptions))
